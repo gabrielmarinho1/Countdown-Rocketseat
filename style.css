@@ -1,7 +1,8 @@
 /* font-family: Poppins 
 Font Weight: 300, 400 e 500 */
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap');
-body{
+
+body {
     margin: 0;
     padding: 0;
     display: flex;
@@ -14,7 +15,7 @@ body{
     --text-color: #9C9AB6;
 }
 
-.bg-img{
+.bg-img {
     height: 100vh;
     display: flex;
     align-items: center;
@@ -22,16 +23,16 @@ body{
     justify-content: space-between;
 }
 
-.bg-img > img{
+.bg-img>img {
     width: 100vw;
     pointer-events: none;
 }
 
-#rocket{
+#rocket {
     height: 350px;
 }
 
-.main{
+.main {
     position: absolute;
     top: 50%;
     left: 50%;
@@ -43,14 +44,14 @@ body{
     margin: 0;
 }
 
-.content{
+.content {
     font-family: 'Poppins', sans-serif;
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
-.content > h2{
+.content>h2 {
     color: var(--purple);
     font-weight: 700;
     letter-spacing: 5px;
@@ -58,7 +59,7 @@ body{
     margin: 0;
 }
 
-.titles{
+.titles {
     display: flex;
     justify-content: space-around;
     width: 446px;
@@ -68,7 +69,7 @@ body{
     margin-bottom: 0;
 }
 
-.counter{
+.counter {
     margin: 0;
     width: 446px;
     color: var(--black);
@@ -77,19 +78,19 @@ body{
     letter-spacing: 10px;
 }
 
-.release{
+.release {
     color: var(--light-grey);
     font-family: 'Poppins', sans-serif;
     font-weight: 300;
 }
 
-.call-back{
+.call-back {
     color: var(--text-color);
     text-align: center;
     font-weight: 400;
 }
 
-button{
+button {
     background-color: var(--purple);
     border: none;
     color: white;
@@ -98,4 +99,66 @@ button{
     font-family: 'Poppins', sans-serif;
     margin: 10px;
     border-radius: 10px;
+}
+
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgb(0, 0, 0);
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+.modal-content {
+    background-color: #fefefe;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 20px;
+    border: 1px solid #888;
+    width: 40%;
+    border-radius: 20px;
+    height: 70vh;
+}
+
+.close {
+    color: var(--light-grey);
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+  }
+  
+  .close:hover, .close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+  }
+
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+form > input{
+    width: 80%;
+    height: 40px;
+    padding: 10px;
+    margin: 10px;
+    font-family: 'Poppins', sans-serif;
+    color: var(--text-color);
+    border-radius: 15px;
+    border: 2px solid var(--light-grey);
 }
