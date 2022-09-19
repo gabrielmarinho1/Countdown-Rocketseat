@@ -43,23 +43,17 @@ body{
     margin: 0;
 }
 
-.timer {
-    width: inherit;
-}
-
 .content{
     font-family: 'Poppins', sans-serif;
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin: 0;
 }
 
 .content > h2{
     color: var(--purple);
     font-weight: 700;
     letter-spacing: 5px;
-    width: inherit;
     font-size: 30px;
     margin: 0;
 }
@@ -67,10 +61,8 @@ body{
 .titles{
     display: flex;
     justify-content: space-around;
-    text-align: center;
-    width: inherit;
+    width: 446px;
     color: var(--light-grey);
-    text-align-last: justify;
     font-weight: 300;
     margin-top: 10px;
     margin-bottom: 0;
@@ -78,12 +70,17 @@ body{
 
 .counter{
     margin: 0;
-    text-align: center;
-    width: inherit;
+    width: 446px;
     color: var(--black);
     font-weight: 500;
-    font-size: 70px;
-    letter-spacing: 5px;
+    font-size: 63px;
+    letter-spacing: 10px;
+}
+
+.release{
+    color: var(--light-grey);
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
 }
 
 .call-back{
