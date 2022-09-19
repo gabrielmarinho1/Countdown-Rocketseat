@@ -11,4 +11,4 @@
 
 </ul>
 <h1>Resultado:</h1>
-<!-- <a href="https://gabrielmarinho1.github.io/Countdown-Rocketseat/">https://gabrielmarinho1.github.io/Countdown-Rocketseat/</a> -->
+<a href="https://gabrielmarinho1.github.io/Countdown-Rocketseat/">https://gabrielmarinho1.github.io/Countdown-Rocketseat/</a>
